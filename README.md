@@ -1,6 +1,6 @@
 # scala-examples
 
-Scala studying, hacking project
+Scala studying and hacking project
 
 ## Running
 
