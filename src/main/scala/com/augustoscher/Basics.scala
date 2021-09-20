@@ -62,4 +62,16 @@ object Basics extends App {
 
   val theUnit = ()
   println(theUnit) // like void
+
+  def isValidUrl(url: String): Boolean = {
+    val isValid = url.length <= 10
+    if(!isValid)
+      println("Invalid URL")
+
+    isValid
+  }
+
+  val isValidURL = isValidUrl("iasudhaiudhaiudhiuasdhauidhaiudhaid")
+  println(isValidURL)
+  println(isValidUrl("iasudha"))
 }
