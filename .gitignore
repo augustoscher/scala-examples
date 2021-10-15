@@ -1,2 +1,5 @@
+# intellij
 out
 /.idea/
+/project/
+/target/
