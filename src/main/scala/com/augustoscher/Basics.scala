@@ -74,4 +74,10 @@ object Basics extends App {
   val isValidURL = isValidUrl("iasudhaiudhaiudhiuasdhauidhaiudhaid")
   println(isValidURL)
   println(isValidUrl("iasudha"))
+
+  def fillRange(size: Int): Range = {
+      1 to size
+  }
+
+  for (i <- fillRange(20)) println(i)
 }
