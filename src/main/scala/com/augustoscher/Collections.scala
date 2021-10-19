@@ -13,5 +13,5 @@ val a2 = a1 map (_ * 3)
 val a3 = a1.filter(_ % 2 == 0)
 val a4 = a1 filter (_ % 2 == 0)
 
-  
+
 }
