@@ -47,3 +47,6 @@ object JurisprudenceSearchFilter extends DocumentSearchFilter {
     }
   }
 }
+
+
+val types = jurisTypes(List("ACORDAO", "SENTENCA"))
